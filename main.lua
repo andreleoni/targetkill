@@ -16,6 +16,8 @@ function love.load()
   sprites.crosshairs = love.graphics.newImage('sprites/crosshairs.png')
   sprites.target = love.graphics.newImage('sprites/target.png')
   love.mouse.setVisible(false)
+
+  love.window.setTitle("TargetKill")
 end
 
 function love.update(dt)
